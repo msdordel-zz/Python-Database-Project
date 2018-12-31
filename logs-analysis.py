@@ -12,7 +12,7 @@ def main():
     
     #queries go here
     
-    def popular_articles():
+def popular_articles():
     # Returns the top 3 most popular articles
     connection, cursor = connect()
 
@@ -25,7 +25,7 @@ def main():
         
     return article_count
     
-    def popular_authors():
+def popular_authors():
     # Returns a list of the most popular authors
     connection, cursor = connect()
 
