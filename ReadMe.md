@@ -1,1 +1,1 @@
-This is my Python Project placeholder readme
+This is my Rails Project readme.
