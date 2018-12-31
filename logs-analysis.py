@@ -17,7 +17,9 @@ def popular_articles():
     connection, cursor = connect()
 
     query = """
-
+            SELECT *
+            FROM article_views
+            LIMIT 3;
             """
     cursor.execute(query)
     article_count = cursor.fetchall()
