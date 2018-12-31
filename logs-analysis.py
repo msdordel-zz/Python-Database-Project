@@ -9,3 +9,12 @@ def main():
 
     # Open a cursor to perform database operations
     cur = conn.cursor()
+    
+    #queries go here
+    
+        # Close communication with the database
+    cur.close()
+    conn.close()
+
+if __name__ == "__main__":
+    main()
